@@ -1,0 +1,276 @@
+/* Extra Small */
+@media (min-width:0) {
+
+    /* Default CSS */
+    /* Spacer */
+    .spaceY {
+        padding-top: 30px;
+        padding-bottom: 25px;
+    }
+
+    .spaceX {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* Section title */
+    .section-title {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    /* Section Title + Subtitle */
+    .title-part {
+        padding-bottom: 20px;
+    }
+
+    .sttl {
+        font-size: 18px;
+    }
+
+    .sbttl {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+
+    /* Top Information */
+    .top-info {
+        padding: 7px 0 5px 0;
+    }
+
+    /* Header */
+    header .h-logo img {
+        width: 50px;
+    }
+
+    /* Main Slider */
+    /* Mobile */
+    #m-slider-1 .box {
+        height: 400px;
+    }
+
+    #m-slider-1 .box img {
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    /* Slider 2 */
+    #slider2 .box .details h3 {
+        font-size: 16px;
+    }
+
+    /* Section 2 Slider */
+    .company-slider {
+        padding-bottom: 15px;
+    }
+
+    #cmpny-slider .box {
+        padding: 0 8px;
+    }
+
+    /* Slider 4 */
+    #slider4 .box .text-part a {
+        font-size: 16px;
+    }
+
+    /* Footer */
+    /* Top footer */
+    footer .top-footer .box {
+        padding: 12px 0;
+    }
+
+    footer .box-4 .text-box .email-box {
+        width: 50%;
+    }
+
+    footer .box-4 .text-box .subs-btn {
+        width: 50%;
+    }
+
+    footer .top-footer .box-4 .text-part h4 {
+
+        margin: 0;
+    }
+
+
+    /* Slider 2, 3, 4 and CompanySlider(Section-2) Navigation */
+    .slider-2-3-4-cs .owl-nav .owl-prev {
+        left: -12px;
+    }
+
+    .slider-2-3-4-cs .owl-nav .owl-next {
+        right: -12px;
+    }
+
+}
+
+@media (min-width:268px) {
+
+    /* Header */
+    header .h-logo img {
+        width: 70px;
+    }
+}
+
+@media (min-width:320px) {
+
+    /* Footer */
+    /* Top footer */
+    footer .box-4 .text-box .email-box {
+        width: 60%;
+    }
+
+    footer .box-4 .text-box .subs-btn {
+        width: 40%;
+    }
+}
+
+/* Small */
+@media (min-width:575px) {
+
+    /* Default CSS */
+    /* Spacer */
+    .spaceY {
+        padding-top: 35px;
+        padding-bottom: 25px;
+    }
+
+    .spaceX {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/* Medium */
+@media (min-width:767px) {
+
+    /* Default CSS */
+    /* Section title */
+    .section-title {
+        font-size: 26px;
+        padding-bottom: 35px;
+    }
+
+    /* Section Title + Subtitle */
+    .title-part {
+        padding-bottom: 35px;
+    }
+
+    .sttl {
+        font-size: 26px;
+    }
+
+    .sbttl {
+        font-size: 15px;
+    }
+
+    /* Main Slider PC */
+    #slider1 .box {
+        height: 500px;
+        width: 100%;
+    }
+
+    #slider1 .box img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #slider1 .box-1 img {
+        object-position: 70%;
+    }
+
+    #slider1 .box-2 img {
+        object-position: 30%;
+    }
+
+    /* Slider 2 */
+    #slider2 .box .details h3 {
+        font-size: 25px;
+    }
+
+    /* Section 2 Slider */
+    .company-slider {
+        padding-bottom: 30px;
+    }
+
+    /* Slider 4 */
+    #slider4 .box .text-part a {
+        font-size: 18px;
+    }
+
+    /* Footer */
+    /* Top footer */
+    footer .top-footer .box {
+        padding: 0;
+    }
+
+    footer .top-footer .box-4 .text-part h4 {
+        margin-bottom: 20px;
+    }
+}
+
+/* Large */
+@media (min-width:992px) {
+
+    /* Default CSS */
+    /* Spacer */
+    .spaceY {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .spaceX {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* Top Information */
+    .top-info {
+        padding: 8px 0;
+    }
+
+    /* Header */
+    header .h-logo img {
+        width: 80px;
+    }
+
+    /* Main Slider PC */
+    #slider1 .box {
+        height: 750px;
+    }
+
+    /* PC Navigation */
+    #slider1 .owl-nav {
+        display: block;
+    }
+
+    #cmpny-slider .box {
+        padding: 0 15px;
+    }
+
+    /* Footer */
+    .col-lg-30 {
+        width: 30%;
+    }
+
+    .col-lg-20 {
+        width: 20%;
+    }
+}
+
+/* Extra Large */
+@media (min-width:1200px) {}
+
+/* Extra Extra Large */
+@media (min-width:1400px) {
+
+    /* Slider 2, 3, 4 and CompanySlider(Section-2) Navigation */
+    .slider-2-3-4-cs .owl-nav .owl-prev {
+        left: -35px;
+    }
+
+    .slider-2-3-4-cs .owl-nav .owl-next {
+        right: -35px;
+    }
+}
